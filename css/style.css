@@ -126,9 +126,9 @@ a {
 
 .about_container {
   background: #f5f5f5;
-  width: 90%;
-  max-width: 1500px;
-  margin: 50px auto;
+  width: 100%;
+  max-width: 1740px;
+  margin: 50px 0;
   padding: 30px;
   justify-content: space-around;
   clear: both;
@@ -271,10 +271,10 @@ a {
 }
 
 .blog {
-  width: 90%;
-  max-width: 1500px;
+  width: 100%;
+  max-width: 1740px;
   background: #f5f5f5;
-  margin: 50px auto;
+  margin: 50px 0;
   padding: 30px;
 }
 
@@ -377,6 +377,7 @@ a {
   max-width: 1500px;
   margin: 50px auto;
   padding: 30px;
+  position: relative;
 }
 
 .overview_logo {
@@ -384,7 +385,9 @@ a {
   font-size: 12px;
   text-align: left;
   margin-bottom: 10px;
-  margin-left: 300px;
+  position: absolute;
+  top: 1px;
+  left: 330px;
   font-family: "Amatic SC", cursive;
 }
 
@@ -393,7 +396,9 @@ a {
   font-size: 20px;
   text-align: left;
   font-weight: bold;
-  margin-left: 300px;
+  position: absolute;
+  top: 20px;
+  left: 330px;
 }
 
 .overview_content {
@@ -415,10 +420,10 @@ table th {
 }
 
 .public {
-  width: 90%;
-  max-width: 1000px;
-  margin: 50px auto;
-  padding: 30px;
+  width: 100%;
+  max-width: 1824px;
+  margin: 50px 0;
+  padding: 30px 0;
   text-align: center;
   align-items: center;
 }
@@ -512,8 +517,7 @@ table th {
 
 .footer {
   background: #f5f5f5;
-  width: 90%;
+  width: 100%;
   text-align: center;
   padding: 15px;
-  margin: 0 auto;
 }
